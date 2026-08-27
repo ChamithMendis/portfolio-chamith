@@ -5,7 +5,7 @@ export const profile = {
   location: "Colombo, Sri Lanka",
   email: "chamithmendis25@gmail.com",
   phone: "+94 777 594 182",
-  linkedin: "#", // TODO: replace with actual LinkedIn profile URL
+  linkedin: "https://www.linkedin.com/in/chamithmendis/",
   summary:
     "Full-stack engineer with close to six years building scalable, high-performance web applications across fintech and capital-markets systems-brokerage, trading, and IPO platforms for international financial-services clients. I work across REST API design, reusable UI architecture, event-driven integrations, and enterprise database optimization, and provide hands-on technical direction through code reviews, mentoring, and delivery ownership across the full lifecycle.",
 };
@@ -75,12 +75,23 @@ export const experience = [
 
 export const projects = [
   {
+    name: "KartzProps",
+    org: "Personal project",
+    description:
+      "A self-serve rental platform for a props business: customers browse, filter, and enquire via one-tap WhatsApp/call; the owner runs the entire inventory — add, edit, delete, toggle availability — from his phone, with zero developer dependency and Rs. 0/month infrastructure cost.",
+    stack: ["React", "Vite", "Supabase", "Cloudinary", "Vercel"],
+    tag: "Live project",
+    link: "https://kartzprops.vercel.app/",
+    visible: true,
+  },
+  {
     name: "IPO Platform",
     org: "DirectFN",
     description:
       "UI and REST API development for a capital-markets IPO subscription platform serving international financial-services clients — enhancements, application integrations, and requirement analysis, alongside mentoring juniors and leading code reviews.",
     stack: ["Angular", "Spring Boot", "Oracle", "REST"],
     tag: "Private client project",
+    visible: false,
   },
   {
     name: "OMS — Order Management System",
@@ -89,6 +100,7 @@ export const projects = [
       "Event-driven message-processing service handling exchange (FIX) messages over JMS using message-driven beans on JBoss/WildFly, supporting high-throughput order and market-data transaction flows.",
     stack: ["Java", "JMS", "ActiveMQ", "FIX Protocol", "WildFly"],
     tag: "Private client project",
+    visible: false,
   },
   {
     name: "ALKB",
@@ -97,6 +109,7 @@ export const projects = [
       "Ownership of database patching, production fixes, deployments, feature testing, and cross-team collaboration for a business-critical brokerage system.",
     stack: ["Oracle", "Spring Boot"],
     tag: "Private client project",
+    visible: false,
   },
   {
     name: "TESS-TA OCR",
@@ -105,6 +118,7 @@ export const projects = [
       "Tri-lingual (Sinhala / English / Tamil) OCR platform. Implemented client-driven features and dockerized the application for multi-environment deployment, hosted on GCP.",
     stack: ["Spring Boot", "React", "MySQL", "Docker", "GCP"],
     tag: "Private client project",
+    visible: true,
   },
   {
     name: "Sri Lanka Foundation Virtual Conference",
@@ -113,6 +127,7 @@ export const projects = [
       "Virtual conference platform hosting a live exhibition for thousands of concurrent users — virtual booths, networking, and live events.",
     stack: ["React", "Express", "MongoDB", "AWS", "Firebase"],
     tag: "Private client project",
+    visible: true,
   },
   {
     name: "ETFB",
@@ -121,6 +136,7 @@ export const projects = [
       "Full-stack web application built end-to-end during internship — requirements gathering, system design, development, integrations, and testing across the full SDLC.",
     stack: ["Angular", "Spring Boot", "MySQL", "Swagger"],
     tag: "Private client project",
+    visible: false,
   },
 ];
 
