@@ -26,6 +26,7 @@ export const skills = [
     items: [
       "Java 17 / 21",
       "Spring Boot",
+      "Node / Nest",
       "JPA / Hibernate",
       "REST APIs",
       "WebSocket",
