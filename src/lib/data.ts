@@ -13,11 +13,23 @@ export const profile = {
 export const skills = [
   {
     label: "Frontend",
-    items: ["Angular (v14, v17)", "React", "TypeScript", "JavaScript", "HTML/CSS3"],
+    items: [
+      "Angular (v14, v17)",
+      "React",
+      "TypeScript",
+      "JavaScript",
+      "HTML/CSS3",
+    ],
   },
   {
     label: "Backend",
-    items: ["Java 17 / 21", "Spring Boot", "JPA / Hibernate", "REST APIs", "WebSocket"],
+    items: [
+      "Java 17 / 21",
+      "Spring Boot",
+      "JPA / Hibernate",
+      "REST APIs",
+      "WebSocket",
+    ],
   },
   {
     label: "Databases",
@@ -100,7 +112,23 @@ export const projects: {
     tag: "Live project",
     link: "https://kartzprops.vercel.app/",
     visible: true,
-    media: [],
+    media: [
+      {
+        type: "image",
+        src: "/projects/kartzprops/1.kartzprops-home.jpg",
+        alt: "Home screen",
+      },
+      {
+        type: "image",
+        src: "/projects/kartzprops/2.kartzprops-detail.jpg",
+        alt: "Prop Detail",
+      },
+      {
+        type: "video",
+        src: "/projects/kartzprops/3.demo.mp4",
+        alt: "Demo",
+      },
+    ],
   },
   {
     name: "IPO Platform",
@@ -167,6 +195,35 @@ export const projects: {
     tag: "Private client project",
     visible: false,
     media: [],
+  },
+  {
+    name: "Trade Flow",
+    slug: "tradeflow",
+    org: "Independent / Part-time",
+    description:
+      `A real-time trading simulator. Users manage a virtual cash balance, view simulated market
+      prices, place buy/sell orders that are executed asynchronously by an inbuilt exchange simulator (with
+      partial fills), and track a virtual portfolio updated in real time over WebSockets`,
+    stack: ["React/Vite", "TanStack/Zustand", "Node/NestJs", "Postgresql/Prisma", "Docker", "BullMQ/Redis"],
+    tag: "Independent project",
+    visible: true,
+    media: [
+      {
+        type: "image",
+        src: "/projects/tradeflow/1.login_page.jpg",
+        alt: "Login screen",
+      },
+      {
+        type: "image",
+        src: "/projects/tradeflow/2.portfolio.jpg",
+        alt: "Portfolio screen",
+      },
+      {
+        type: "video",
+        src: "/projects/tradeflow/3.demo.mp4",
+        alt: "Demo",
+      },
+    ],
   },
 ];
 
