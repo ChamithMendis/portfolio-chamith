@@ -73,9 +73,26 @@ export const experience = [
   },
 ];
 
-export const projects = [
+export type ProjectMedia = {
+  type: "image" | "video";
+  src: string;
+  alt?: string;
+};
+
+export const projects: {
+  name: string;
+  slug: string;
+  org: string;
+  description: string;
+  stack: string[];
+  tag: string;
+  link?: string;
+  visible: boolean;
+  media: ProjectMedia[];
+}[] = [
   {
     name: "KartzProps",
+    slug: "kartzprops",
     org: "Personal project",
     description:
       "A self-serve rental platform for a props business: customers browse, filter, and enquire via one-tap WhatsApp/call; the owner runs the entire inventory — add, edit, delete, toggle availability — from his phone, with zero developer dependency and Rs. 0/month infrastructure cost.",
@@ -83,60 +100,73 @@ export const projects = [
     tag: "Live project",
     link: "https://kartzprops.vercel.app/",
     visible: true,
+    media: [],
   },
   {
     name: "IPO Platform",
+    slug: "ipo-platform",
     org: "DirectFN",
     description:
       "UI and REST API development for a capital-markets IPO subscription platform serving international financial-services clients — enhancements, application integrations, and requirement analysis, alongside mentoring juniors and leading code reviews.",
     stack: ["Angular", "Spring Boot", "Oracle", "REST"],
     tag: "Private client project",
     visible: false,
+    media: [],
   },
   {
     name: "OMS — Order Management System",
+    slug: "oms",
     org: "DirectFN",
     description:
       "Event-driven message-processing service handling exchange (FIX) messages over JMS using message-driven beans on JBoss/WildFly, supporting high-throughput order and market-data transaction flows.",
     stack: ["Java", "JMS", "ActiveMQ", "FIX Protocol", "WildFly"],
     tag: "Private client project",
     visible: false,
+    media: [],
   },
   {
     name: "ALKB",
+    slug: "alkb",
     org: "DirectFN",
     description:
       "Ownership of database patching, production fixes, deployments, feature testing, and cross-team collaboration for a business-critical brokerage system.",
     stack: ["Oracle", "Spring Boot"],
     tag: "Private client project",
     visible: false,
+    media: [],
   },
   {
     name: "TESS-TA OCR",
+    slug: "tess-ta-ocr",
     org: "Independent / Part-time",
     description:
       "Tri-lingual (Sinhala / English / Tamil) OCR platform. Implemented client-driven features and dockerized the application for multi-environment deployment, hosted on GCP.",
     stack: ["Spring Boot", "React", "MySQL", "Docker", "GCP"],
     tag: "Private client project",
     visible: true,
+    media: [],
   },
   {
     name: "Sri Lanka Foundation Virtual Conference",
+    slug: "sl-foundation-conference",
     org: "Independent / Part-time",
     description:
       "Virtual conference platform hosting a live exhibition for thousands of concurrent users — virtual booths, networking, and live events.",
     stack: ["React", "Express", "MongoDB", "AWS", "Firebase"],
     tag: "Private client project",
     visible: true,
+    media: [],
   },
   {
     name: "ETFB",
+    slug: "etfb",
     org: "Inova IT Systems",
     description:
       "Full-stack web application built end-to-end during internship — requirements gathering, system design, development, integrations, and testing across the full SDLC.",
     stack: ["Angular", "Spring Boot", "MySQL", "Swagger"],
     tag: "Private client project",
     visible: false,
+    media: [],
   },
 ];
 
