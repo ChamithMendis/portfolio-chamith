@@ -1,7 +1,7 @@
 export const profile = {
   name: "Chamith Mendis",
   title: "Senior Full-Stack Engineer",
-  tagline: "Angular · Spring Boot · Java · REST",
+  tagline: "Angular · React · Spring Boot · NODE · Java · REST",
   location: "Colombo, Sri Lanka",
   email: "chamithmendis25@gmail.com",
   phone: "+94 777 594 182",
