@@ -56,7 +56,7 @@ export const experience = [
       "Fintech / capital-markets software — brokerage, trading and IPO platforms for international financial-services clients.",
     bullets: [
       "Provided hands-on technical leadership: led feature development, conducted code reviews, and mentored junior and associate engineers.",
-      "Designed and delivered enterprise full-stack modules with Angular, Spring Boot and Oracle — REST APIs, reusable UI components, and system integrations for high-volume transactional platforms.",
+      "Designed and delivered enterprise full-stack modules with Angular/React, Spring Boot and Oracle — REST APIs, reusable UI components, and system integrations for high-volume transactional platforms.",
       "Built and maintained event-driven integrations processing exchange (FIX) messages over JMS on JBoss / WildFly using message-driven beans, supporting high-throughput order and market-data flows.",
       "Owned delivery for assigned modules — led data-migration activities and played an active role in multiple business-critical Go-Live events.",
       "Optimized Oracle performance for large transactional and reporting workloads through partition pruning, execution-plan analysis, indexing, and query redesign.",

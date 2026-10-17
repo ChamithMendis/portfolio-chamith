@@ -5,7 +5,7 @@ import { profile } from "@/lib/data";
 const FOCUS_AREAS = [
   "REST & WebSocket API design",
   "Event-driven integrations (JMS / FIX)",
-  "Reusable Angular UI architecture",
+  "Reusable UI architecture", /* TODO: Angular UI */
   "Enterprise Oracle performance tuning",
   "Technical mentoring & code review",
   "Production support & Go-Live ownership",
@@ -30,7 +30,7 @@ export default function About() {
               Most of that time has been spent at{" "}
               <span className="text-text">DirectFN</span>, where I work
               across the full stack with{" "}
-              <span className="text-text">Angular</span> and{" "}
+              <span className="text-text">Angular, React</span> and{" "}
               <span className="text-text">Spring Boot</span>, build
               event-driven services that process exchange (FIX) messages at
               high throughput, and optimize Oracle databases for large
